@@ -120,7 +120,7 @@ form button:hover {
 .todo-item {
   padding: 0rem 0.5rem;
   /* word-break is used to break the words at any character to prevent overflow. */
-  word-break: break-all; 
+  overflow-wrap: anywhere; 
 }
 
 .completed {
